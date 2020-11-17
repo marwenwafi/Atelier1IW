@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="Portfolio.html">Portfolio</a>
+    <a href="Contact.html">Contact</a>
+    <a href="Blog.html">Blog</a>
+</div>
+<div class="wrapper">
+    <form action="mailto:marwen.wafi@esprit.tn" method="post">
+        <div class="field">
+            <input type="text" id="name" name="name" placeholder="Qui êtes-vous" autofocus/>
+            <label for="name">Nom</label>
+        </div>
+        <div class="field">
+            <input type="text" id="email" name="email" placeholder="name@domain.tld"/>
+            <label for="email">E-Mail</label>
+        </div>
+        <div class="field">
+            <textarea id="msg" rows="4" name="msg" placeholder="Votre message..."></textarea>
+            <label for="msg">Message</label>
+        </div>
+        <input class="button" type="submit" value="Send"/>
+    </form>
+</div>
+</body>
+</html>
